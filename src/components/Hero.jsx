@@ -1,5 +1,3 @@
-// import hero_sec_prof from "dist/images/profile.svg";
-// import hero_sec from "dist/images/Doei.png";
 import { ButtonOutline, ButtonPrimary } from "./Button";
 const Hero = () => {
   return (

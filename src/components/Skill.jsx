@@ -31,12 +31,12 @@ const skillItem = [
     desc: "اجرای جاوااسکریپت در سمت سرور",
   },
   {
-    imgSrc: "dist/images/git.svg",
+    imgSrc: "images/git.svg",
     label: "Git",
     desc: "مدیریت تغییرات کد",
   },
   {
-    imgSrc: "dist/images/github.svg",
+    imgSrc: "images/github.svg",
     label: "GitHub",
     desc: "اشتراک‌گذاری کد آنلاین",
   },
