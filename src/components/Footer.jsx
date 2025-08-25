@@ -22,23 +22,19 @@ const sitemap = [
 const socials = [
   {
     label: "GitHub",
-    href: "https://www.github.com/codewithsadee-org",
+    href: "https://www.github.com/yasin-mov",
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/codewithsadee",
-  },
-  {
-    label: "Twitter X",
-    href: "https://x.com/codewithsadee_",
+    href: "https://www.linkedin.com/in/yasin-movahedi/",
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/codewithsadee",
+    href: "https://www.instagram.com/mo___yasin",
   },
   {
     label: "Telegram",
-    href: "https://codepen.io/codewithsadee",
+    href: "https://t.me/Mhmmd_yasin",
   },
 ];
 
@@ -97,12 +93,9 @@ const Footer = () => {
         </div>
 
         <div className="flex items-center justify-between pt-10 mb-8">
-          <a href="/" className="logo reveal-up">
-            <img src="/images/logo.png" width={120} height={120} alt="logo" />
-          </a>
-          <p className="text-zinc-500 text-sm reveal-up">
+          <p className="text-zinc-500 text-sm reveal-up flex justify-center items-center mx-auto">
             <span className="text-zinc-200 reveal-up">
-            © 2025 Crafted with ❤️ by Doyi Yasin. All rights reserved
+              © 2025 Crafted with ❤️ by Doyi Yasin. All rights reserved
             </span>
           </p>
         </div>

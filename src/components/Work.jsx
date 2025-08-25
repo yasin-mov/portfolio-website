@@ -2,31 +2,31 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    imgSrc: "dist/images/project-1.png",
+    imgSrc: "images/project-1.png",
     title: "وبسایت شخصی",
     tags: ["portfolio", "react", "tailwind"],
-    projectLink: "https://musify-5al0.onrender.com/",
+    projectLink: "https://yasin-mov.github.io/portfolio-website/",
   },
   {
-    imgSrc: "dist/images/project-2.png",
+    imgSrc: "images/project-2.png",
     title: "مبدل دما",
-    tags: ["js", "html","css"],
-    projectLink: "https://pixstock-official.vercel.app/",
+    tags: ["js", "html", "css"],
+    projectLink: "https://yasin-mov.github.io/temp-converter/",
   },
   {
-    imgSrc: "dist/images/project-3.png",
+    imgSrc: "images/project-3.png",
     title: "to-do لیست پیشرفته",
-    tags: ["js", "html","css"],
+    tags: ["js", "html", "css"],
     projectLink: "",
   },
   {
-    imgSrc: "dist/images/project-4.png",
+    imgSrc: "images/project-4.png",
     title: "وبسایت هواشناسی",
     tags: ["API", "vanilla_JS"],
     projectLink: "https://github.com/codewithsadee-org/wealthome",
   },
   {
-    imgSrc: "dist/images/project-5.png",
+    imgSrc: "images/project-5.png",
     title: "وبسایت فروشگاهی",
     tags: ["wordpress", "elementor"],
     projectLink: "https://github.com/codewithsadee/anon-ecommerce-website",

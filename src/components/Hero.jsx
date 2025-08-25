@@ -8,8 +8,8 @@ const Hero = () => {
             <figure className="w-12 h-12 rounded-lg">
               <img
                 src="images/profile.svg"
-                width={12}
-                height={12}
+                width={5}
+                height={5}
                 alt="yasin movahedi"
                 className="img-cover"
               />
