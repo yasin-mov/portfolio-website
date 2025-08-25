@@ -1,4 +1,4 @@
-import logo from "../images/vite.svg";
+import logo from "/images/logo.png";
 
 const aboutItems = [
   {
@@ -17,8 +17,8 @@ const About = () => {
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-lg md:max-w-[60ch]">
-            سلام 👋 من دویی یاسین هستم. مسیر یادگیری فرانت‌اند رو شروع کردم و
-            تمرکزم روی ساخت رابط‌های کاربری مدرن و جذابه. به Clean Code، طراحی
+            سلام 👋 من یاسین هستم. مسیر یادگیری فرانت‌اند رو شروع کردم و تمرکزم
+            روی ساخت رابط‌های کاربری مدرن و جذابه. به Clean Code، طراحی
             ریسپانسیو و تجربه کاربری اهمیت زیادی می‌دم. همیشه دنبال اینم که
             مهارت‌هام رو با انجام پروژه‌های واقعی ارتقا بدم.
           </p>
@@ -41,8 +41,8 @@ const About = () => {
               src={logo}
               alt=""
               className="ml-auto md:w-[40px md:h-40px"
-              width={30}
-              height={30}
+              width={120}
+              height={120}
             />
           </div>
         </div>

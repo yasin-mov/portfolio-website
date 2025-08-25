@@ -1,5 +1,5 @@
-import hero_sec_prof from "/images/doei_prof.jpg";
-import hero_sec from "/images/Doei.png";
+// import hero_sec_prof from "dist/images/profile.svg";
+// import hero_sec from "dist/images/Doei.png";
 import { ButtonOutline, ButtonPrimary } from "./Button";
 const Hero = () => {
   return (
@@ -7,11 +7,11 @@ const Hero = () => {
       <div className="container lg:grid lg:grid-cols-2 items-center lg:gap-10">
         <div>
           <div className="flex items-center gap-3">
-            <figure className="img-box w-20 h-20 rounded-lg">
+            <figure className="w-12 h-12 rounded-lg">
               <img
-                src={hero_sec_prof}
-                width={20}
-                height={20}
+                src="dist/images/profile.svg"
+                width={12}
+                height={12}
                 alt="yasin movahedi"
                 className="img-cover"
               />
@@ -29,13 +29,17 @@ const Hero = () => {
           </h2>
           <div className="flex items-center gap-3">
             <ButtonPrimary label="دریافت رزومه" icon="download" />
-            <ButtonOutline href="#about" label="برو پایین" icon="arrow_downward"/>
+            <ButtonOutline
+              href="#about"
+              label="برو پایین"
+              icon="arrow_downward"
+            />
           </div>
         </div>
         <div className="hidden lg:block">
           <figure className="w-full max-w-[480px] ml-auto">
             <img
-              src={hero_sec}
+              src="dist/images/Doei.png"
               width={658}
               height={800}
               alt=""

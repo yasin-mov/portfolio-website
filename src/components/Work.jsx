@@ -2,40 +2,34 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    imgSrc: "/images/project-1.jpg",
-    title: "Full stack music app",
-    tags: ["API", "MVC", "Development"],
+    imgSrc: "dist/images/project-1.png",
+    title: "وبسایت شخصی",
+    tags: ["portfolio", "react", "tailwind"],
     projectLink: "https://musify-5al0.onrender.com/",
   },
   {
-    imgSrc: "/images/project-2.jpg",
-    title: "Free stock photo app",
-    tags: ["API", "SPA"],
+    imgSrc: "dist/images/project-2.png",
+    title: "مبدل دما",
+    tags: ["js", "html","css"],
     projectLink: "https://pixstock-official.vercel.app/",
   },
   {
-    imgSrc: "/images/project-3.jpg",
-    title: "Recipe app",
-    tags: ["Development", "API"],
+    imgSrc: "dist/images/project-3.png",
+    title: "to-do لیست پیشرفته",
+    tags: ["js", "html","css"],
     projectLink: "",
   },
   {
-    imgSrc: "/images/project-4.jpg",
-    title: "Real state website",
-    tags: ["Web-design", "Development"],
+    imgSrc: "dist/images/project-4.png",
+    title: "وبسایت هواشناسی",
+    tags: ["API", "vanilla_JS"],
     projectLink: "https://github.com/codewithsadee-org/wealthome",
   },
   {
-    imgSrc: "/images/project-5.jpg",
-    title: "eCommerce website",
-    tags: ["eCommerce", "Development"],
+    imgSrc: "dist/images/project-5.png",
+    title: "وبسایت فروشگاهی",
+    tags: ["wordpress", "elementor"],
     projectLink: "https://github.com/codewithsadee/anon-ecommerce-website",
-  },
-  {
-    imgSrc: "/images/project-6.jpg",
-    title: "vCard Personal portfolio",
-    tags: ["Web-design", "Development"],
-    projectLink: "https://github.com/codewithsadee/vcard-personal-portfolio",
   },
 ];
 const Work = () => {

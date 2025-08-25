@@ -1,34 +1,44 @@
 import SkillCard from "./SkillCard";
 const skillItem = [
   {
-    imgSrc: "/images/html.svg",
+    imgSrc: "dist/images/html.svg",
     label: "Html",
     desc: "ساختاردهی استاندارد",
   },
   {
-    imgSrc: "/images/css3.svg",
+    imgSrc: "dist/images/css3.svg",
     label: "Css",
     desc: "طراحی رابط‌های کاربری",
   },
   {
-    imgSrc: "/images/javascript.svg",
+    imgSrc: "dist/images/javascript.svg",
     label: "JavaScript",
     desc: "اضافه‌کردن تعاملات پویا به وب‌سایت‌ها.",
   },
   {
-    imgSrc: "/images/tailwindcss.svg",
+    imgSrc: "dist/images/tailwindcss.svg",
     label: "TailwindCss",
     desc: "طراحی سریع و مدرن.",
   },
   {
-    imgSrc: "/images/react.svg",
+    imgSrc: "dist/images/react.svg",
     label: "React",
     desc: "ساخت کامپوننت‌های قابل‌استفاده.",
   },
   {
-    imgSrc: "/images/nodejs.svg",
+    imgSrc: "dist/images/nodejs.svg",
     label: "NodeJs",
     desc: "اجرای جاوااسکریپت در سمت سرور",
+  },
+  {
+    imgSrc: "dist/images/git.svg",
+    label: "Git",
+    desc: "مدیریت تغییرات کد",
+  },
+  {
+    imgSrc: "dist/images/github.svg",
+    label: "GitHub",
+    desc: "اشتراک‌گذاری کد آنلاین",
   },
 ];
 const Skill = () => {
