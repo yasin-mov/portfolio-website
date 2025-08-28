@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 * {
-  font-family: "Dana";
+  font-family: "Rubik";
 }
 .reveal-up {
   @apply translate-y-20  opacity-0;

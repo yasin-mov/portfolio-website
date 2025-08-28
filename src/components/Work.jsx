@@ -17,19 +17,19 @@ const works = [
     imgSrc: "images/project-3.png",
     title: "to-do لیست پیشرفته",
     tags: ["js", "html", "css"],
-    projectLink: "",
+    projectLink: "https://yasin-mov.github.io/professional-To-do-list/",
   },
   {
     imgSrc: "images/project-4.png",
     title: "وبسایت هواشناسی",
     tags: ["API", "vanilla_JS"],
-    projectLink: "https://github.com/codewithsadee-org/wealthome",
+    projectLink: "https://yasin-mov.github.io/Weather-Website/",
   },
   {
     imgSrc: "images/project-5.png",
     title: "وبسایت فروشگاهی",
     tags: ["wordpress", "elementor"],
-    projectLink: "https://github.com/codewithsadee/anon-ecommerce-website",
+    projectLink: "#",
   },
 ];
 const Work = () => {
